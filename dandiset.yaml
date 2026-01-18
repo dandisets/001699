@@ -18,15 +18,17 @@ assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: Duszkiewicz, Adrian; Asiminas, Antonis; Dudchenko, Paul; Peyrache, Adrian;
-  Wood, Emma (2026) Age-dependent alterations in the head-direction signal in a rat
-  model of Fragile X Syndrome (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001699/draft
+citation: Moore, Noah; Duszkiewicz, Adrian; Asiminas, Antonis; Dudchenko, Paul; Peyrache,
+  Adrian; Wood, Emma (2026) Age-dependent alterations in the head-direction signal
+  in a rat model of Fragile X Syndrome (Version draft) [Data set]. DANDI Archive.
+  https://dandiarchive.org/dandiset/001699/draft
 contributor:
 - affiliation:
   - identifier: https://ror.org/01nrxwf90
     name: University of Edinburgh
     schemaKey: Affiliation
   identifier: 0009-0006-3623-154X
+  includeInCitation: true
   name: Moore, Noah
   roleName:
   - dcite:Author
