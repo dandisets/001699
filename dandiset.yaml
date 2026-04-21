@@ -25,18 +25,18 @@ assetsSummary:
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique:
-  - name: behavioral technique
-    schemaKey: MeasurementTechniqueType
   - name: multi electrode extracellular electrophysiology recording technique
-    schemaKey: MeasurementTechniqueType
-  - name: analytical technique
-    schemaKey: MeasurementTechniqueType
-  - name: spike sorting technique
     schemaKey: MeasurementTechniqueType
   - name: signal filtering technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 652017096385
-  numberOfFiles: 94
+  - name: analytical technique
+    schemaKey: MeasurementTechniqueType
+  - name: behavioral technique
+    schemaKey: MeasurementTechniqueType
+  - name: spike sorting technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 672645418488
+  numberOfFiles: 97
   numberOfSubjects: 19
   schemaKey: AssetsSummary
   species:
@@ -45,12 +45,12 @@ assetsSummary:
     schemaKey: SpeciesType
   variableMeasured:
   - Position
-  - SpatialSeries
-  - LFP
   - ProcessingModule
-  - ElectricalSeries
-  - Units
+  - SpatialSeries
   - CompassDirection
+  - LFP
+  - Units
+  - ElectricalSeries
 citation: Moore, Noah; Duszkiewicz, Adrian; Asiminas, Antonis; Dudchenko, Paul; Peyrache,
   Adrian; Wood, Emma (2026) Age-dependent alterations in the head-direction signal
   in a rat model of Fragile X Syndrome (Version draft) [Data set]. DANDI Archive.
