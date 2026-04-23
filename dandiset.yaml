@@ -210,7 +210,7 @@ relatedResource:
     X Syndrome
   relation: dcite:IsDescribedBy
   repository: BioRxiv
-  resourceType: dcite:JournalArticle
+  resourceType: dcite:Preprint
   schemaKey: Resource
   url: https://www.biorxiv.org/content/10.1101/2025.01.09.632139v1
 repository: https://dandiarchive.org
