@@ -16,27 +16,27 @@ access:
   status: dandi:EmbargoedAccess
 assetsSummary:
   approach:
-  - name: electrophysiological approach
-    schemaKey: ApproachType
   - name: behavioral approach
+    schemaKey: ApproachType
+  - name: electrophysiological approach
     schemaKey: ApproachType
   dataStandard:
   - identifier: RRID:SCR_015242
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
   measurementTechnique:
-  - name: multi electrode extracellular electrophysiology recording technique
-    schemaKey: MeasurementTechniqueType
-  - name: signal filtering technique
-    schemaKey: MeasurementTechniqueType
-  - name: analytical technique
-    schemaKey: MeasurementTechniqueType
   - name: behavioral technique
     schemaKey: MeasurementTechniqueType
   - name: spike sorting technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 795596332121
-  numberOfFiles: 90
+  - name: analytical technique
+    schemaKey: MeasurementTechniqueType
+  - name: signal filtering technique
+    schemaKey: MeasurementTechniqueType
+  - name: multi electrode extracellular electrophysiology recording technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 824392293297
+  numberOfFiles: 97
   numberOfSubjects: 24
   schemaKey: AssetsSummary
   species:
@@ -44,12 +44,12 @@ assetsSummary:
     name: Rattus norvegicus - Norway rat
     schemaKey: SpeciesType
   variableMeasured:
-  - Position
   - ProcessingModule
-  - SpatialSeries
-  - CompassDirection
+  - Position
   - LFP
   - Units
+  - SpatialSeries
+  - CompassDirection
   - ElectricalSeries
 citation: Moore, Noah; Duszkiewicz, Adrian; Asiminas, Antonis; Dudchenko, Paul; Peyrache,
   Adrian; Wood, Emma (2026) Age-dependent alterations in the head-direction signal
@@ -185,7 +185,13 @@ description: Fragile X Syndrome (FXS) is a common monogenic cause of autism spec
   providing insights into network-level dysfunctions in FXS and their developmental
   trajectories. Overall, our work establishes the HD system as a valuable and tractable
   model for studying neurodevelopmental disorders.
-ethicsApproval: []
+ethicsApproval:
+- contactPoint:
+    schemaKey: ContactPoint
+    url: 
+      https://www.ed.ac.uk/research-innovation/animal-research/animal-welfare-ethics/ethical-review-and-awerb
+  identifier: '#PP5496934'
+  schemaKey: EthicsApproval
 id: DANDI:001699/draft
 identifier: DANDI:001699
 keywords:
