@@ -52,9 +52,9 @@ assetsSummary:
   - CompassDirection
   - ElectricalSeries
 citation: Moore, Noah; Duszkiewicz, Adrian; Asiminas, Antonis; Dudchenko, Paul; Peyrache,
-  Adrian; Wood, Emma (2026) Age-dependent alterations in the head-direction signal
-  in a rat model of Fragile X Syndrome (Version 0.260917.2313) [Data set]. DANDI Archive.
-  https://doi.org/10.48324/dandi.001699/0.260917.2313
+  Adrian; Wood, Emma (2026) Altered developmental profile of the head-direction signal
+  in a rat model of fragile X syndrome (Version 0.260917.2322) [Data set]. DANDI Archive.
+  https://doi.org/10.48324/dandi.001699/0.260917.2322
 contributor:
 - affiliation:
   - identifier: https://ror.org/01nrxwf90
@@ -169,24 +169,20 @@ contributor:
   - dcite:DataCurator
   schemaKey: Person
 dateCreated: '2026-01-18T00:25:25.828981+00:00'
-datePublished: '2026-09-17T23:13:26.176290+00:00'
-description: Fragile X Syndrome (FXS) is a common monogenic cause of autism spectrum
-  disorder and intellectual disability (ASD/ID), but the neural mechanisms underlying
-  its symptoms remain unclear. Here, we investigate the development of the head-direction
-  (HD) system in a rat model of FXS (Fmr1-/y rats). Using high-density silicon probes,
-  we recorded neuronal activity in the postsubiculum (PoSub), a cortical hub of the
-  HD system, during exploration and sleep in juvenile and adult Fmr1-/y and wild-type
-  (WT) rats. Juvenile Fmr1-/y rats exhibited enhanced HD tuning characterized by sharper
-  directional tuning curves and improved stability of the HD signal in relation to
-  the external environment. This enhancement was intrinsic to the HD circuit and persisted
-  across behavioral and sleep states. However, by adulthood, HD tuning in Fmr1-/y
-  rats became unstable, with increased drift in the allocentric reference frame despite
-  intact intrinsic HD dynamics. These findings reveal a transient enhancement of spatial
-  coding in the HD system of juvenile Fmr1-/y rats, followed by a degradation in adulthood,
-  providing insights into network-level dysfunctions in FXS and their developmental
-  trajectories. Overall, our work establishes the HD system as a valuable and tractable
-  model for studying neurodevelopmental disorders.
-doi: 10.48324/dandi.001699/0.260917.2313
+datePublished: '2026-09-17T23:22:15.053661+00:00'
+description: 'Fragile X Syndrome (FXS) is a common cause of autism spectrum disorder
+  and intellectual disability (ASD/ID), but the altered neural mechanisms underlying
+  it remain unclear. Here, we investigate the development of the head-direction (HD)
+  system in a rat model of FXS  (Fmr1-/y rats) through electrophysiological recordings
+  in the postsubiculum during exploration and sleep. Surprisingly, juvenile Fmr1-/y
+  rats exhibited sharper HD tuning and increased stability of the HD signal in relation
+  to the external environment.  Increase in intrinsic HD tuning persisted across behavioral
+  and sleep states. In contrast, in adult Fmr1-/y rats, HD tuning was less stable
+  than in WT rats despite normal intrinsic HD tuning. These findings suggest an apparent
+  transient sharpening of HD coding in juvenile Fmr1-/y rats, followed by a degradation
+  in adulthood, mirroring the developmental regression often observed in ASD/ID. Overall,
+  our work reveals network-level dysfunctions in FXS and their developmental trajectories. '
+doi: 10.48324/dandi.001699/0.260917.2322
 ethicsApproval:
 - contactPoint:
     schemaKey: ContactPoint
@@ -194,7 +190,7 @@ ethicsApproval:
       https://www.ed.ac.uk/research-innovation/animal-research/animal-welfare-ethics/ethical-review-and-awerb
   identifier: '#PP5496934'
   schemaKey: EthicsApproval
-id: DANDI:001699/0.260917.2313
+id: DANDI:001699/0.260917.2322
 identifier: DANDI:001699
 keywords:
 - postsubiculum
@@ -203,17 +199,17 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://dandiarchive.s3.amazonaws.com/dandisets/001699/0.260917.2313/assets.yaml
-name: Age-dependent alterations in the head-direction signal in a rat model of Fragile
-  X Syndrome
+- https://dandiarchive.s3.amazonaws.com/dandisets/001699/0.260917.2322/assets.yaml
+name: Altered developmental profile of the head-direction signal in a rat model of
+  fragile X syndrome
 publishedBy:
-  endDate: '2026-09-17T23:13:26.176290+00:00'
-  id: urn:uuid:b3bdd470-65b3-4245-85f3-a232d433eafe
+  endDate: '2026-09-17T23:22:15.053661+00:00'
+  id: urn:uuid:49875c29-a1df-4671-959e-2ff87ab722dd
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2026-09-17T23:13:26.176290+00:00'
+  startDate: '2026-09-17T23:22:15.053661+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:5bbc296b-0e85-4407-98c0-139b54591bea
+  - id: urn:uuid:7d7b304d-bec1-487a-8719-f14a8a40e17a
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
@@ -233,13 +229,13 @@ relatedResource:
   resourceType: dcite:Preprint
   schemaKey: Resource
   url: https://www.biorxiv.org/content/10.1101/2025.01.09.632139v1
-releaseNotes: First release
+releaseNotes: Release 2 (updated title)
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
 studyTarget:
-- How does head direction coding change across juvenile development in a rat model
-  of Fragile X Syndrome?
-url: https://dandiarchive.org/dandiset/001699/0.260917.2313
-version: 0.260917.2313
+- Function of the cortical head-direction system in juvenile and adult rat model of
+  Fragile X Syndrome
+url: https://dandiarchive.org/dandiset/001699/0.260917.2322
+version: 0.260917.2322
 wasGeneratedBy: []
