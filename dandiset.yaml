@@ -11,9 +11,9 @@ about:
   name: Fmr1 protein, rat
   schemaKey: Anatomy
 access:
-- embargoedUntil: '2028-01-18'
+- embargoedUntil: '2026-09-17'
   schemaKey: AccessRequirements
-  status: dandi:EmbargoedAccess
+  status: dandi:OpenAccess
 assetsSummary:
   approach:
   - name: behavioral approach
@@ -35,8 +35,8 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: multi electrode extracellular electrophysiology recording technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 824392293297
-  numberOfFiles: 97
+  numberOfBytes: 825123440635
+  numberOfFiles: 98
   numberOfSubjects: 24
   schemaKey: AssetsSummary
   species:
